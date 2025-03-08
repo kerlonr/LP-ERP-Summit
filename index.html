@@ -253,18 +253,18 @@
                 background-color: rgb(242, 242, 242);
                 position: relative;
                 max-width: -webkit-fill-available;
-                grid-template-columns: 1fr 375px 1fr;
+                /*grid-template-columns: 1fr 375px 1fr; */
                 grid-template-rows: repeat(1, max-content);
                 grid-column: 2 / 3;
                 width: 46.7743%;
                 min-height: 100px;
                 --sylet-node-editable: true;
-                padding-right: 4px;
-                margin-left: 0.0946044%;
-                margin-top: 0%;
-                height: 283px;
+                /* padding-right: 4px; */
+                /* margin-left: 0.0946044%; */
+                /* margin-top: 0%; */
+                height: auto;
                 padding-bottom: 62px;
-                padding-top: 34px;
+                /* padding-top: 34px; */
             }
 
             section[sylet-sequencial="21"] {
@@ -982,6 +982,14 @@
                 justify-content: center;
             }
 
+            div[sylet-sequencial="1"] {
+                height: 64px;
+            }
+
+            div[sylet-sequencial="3"] {
+                height: 50px;
+            }
+
             img[sylet-sequencial="8"] {
                 margin-left: 0;
             }
@@ -989,7 +997,7 @@
             section[sylet-sequencial="10"] {
                 align-items: center;
                 display: flex;
-                height: 30%;
+                height: 0;
             }
 
             section[sylet-sequencial="10"],
@@ -1017,7 +1025,6 @@
 
             img[sylet-sequencial="22"] {
                 width: 100%;
-                height: auto;
                 margin: 0 0 0 0;
             }
 
@@ -1072,6 +1079,26 @@
 
             div[sylet-sequencial="3"] {
                 gap: 33%;
+            }
+
+            section[sylet-sequencial="20"] {
+                display: grid;
+                justify-content: center;
+                background-color: rgb(242, 242, 242);
+                position: relative;
+                max-width: -webkit-fill-available;
+                /* grid-template-columns: 1fr 375px 1fr; */
+                grid-template-rows: repeat(1, max-content);
+                grid-column: 2 / 3;
+                /* width: 46.7743%; */
+                min-height: 100px;
+                --sylet-node-editable: true;
+                /* padding-right: 4px; */
+                /* margin-left: 0.0946044%; */
+                /* margin-top: 0%; */
+                height: auto;
+                padding-bottom: 0px;
+                /* padding-top: 34px; */
             }
         }
     </style>
