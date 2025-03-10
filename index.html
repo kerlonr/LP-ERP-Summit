@@ -107,6 +107,13 @@
                 height: 750.844px;
                 align-content: center;
                 flex-wrap: wrap;
+                padding-left: 1%;
+                flex-direction: column;
+            }
+
+            .texto-banner {
+                display: grid;
+                justify-content: start;
             }
 
             section[sylet-sequencial="12"] {
@@ -168,7 +175,7 @@
                 min-width: 0px;
                 margin: 0px;
                 --sylet-node-editable: true;
-                width: 374px;
+                width: 512px;
                 height: 162px;
                 grid-column: 2 / 3;
                 line-height: 33.25px;
@@ -194,7 +201,7 @@
                 min-width: 0px;
                 margin: 0px;
                 --sylet-node-editable: true;
-                width: 374px;
+                width: 500px;
                 height: 145px;
                 grid-column: 2 / 3;
                 line-height: 37.25px;
@@ -220,7 +227,7 @@
                 min-width: 0px;
                 margin: 0px;
                 --sylet-node-editable: true;
-                width: 374px;
+                width: 512px;
                 height: 134.5px;
                 grid-column: 2 / 3;
                 line-height: 34.75px;
@@ -1088,6 +1095,12 @@
                 gap: 33%;
             }
 
+            p[sylet-sequencial="15"],
+            p[sylet-sequencial="7"],
+            p[sylet-sequencial="14"] {
+                width: auto;
+            }
+
             section[sylet-sequencial="20"] {
                 display: grid;
                 justify-content: center;
@@ -1146,12 +1159,14 @@
         </div>
     </section>
     <section sylet-component="section" sylet-sequencial="11">
-        <p sylet-component="text" sylet-sequencial="13" style="line-height: 1.40625px; font-size: 50.6px;"><span
-                sylet-id="m7krzv3ko2rnewowcf9">Agende a sua</span><br></p>
-        <p sylet-component="text" sylet-sequencial="29" style="line-height: 1.40625px; font-size: 55.8px;"><span
-                sylet-id="m7ltnjw9eorrjonk7s9">demonstração</span></p>
-        <p sylet-component="text" sylet-sequencial="30" style="line-height: 49px; font-size: 54.7px;"><span
-                sylet-id="m7ltnq1mc4yjlnjmio">agora mesmo!</span></p>
+        <div class="texto-banner">
+            <p sylet-component="text" sylet-sequencial="13" style="line-height: 1.40625px; font-size: 50.6px;"><span
+                    sylet-id="m7krzv3ko2rnewowcf9">Agende a sua</span><br></p>
+            <p sylet-component="text" sylet-sequencial="29" style="line-height: 1.40625px; font-size: 55.8px;"><span
+                    sylet-id="m7ltnjw9eorrjonk7s9">demonstração</span></p>
+            <p sylet-component="text" sylet-sequencial="30" style="line-height: 49px; font-size: 54.7px;"><span
+                    sylet-id="m7ltnq1mc4yjlnjmio">agora mesmo!</span></p>
+        </div>
         <p sylet-component="text" sylet-sequencial="14" style="line-height: 33.25px; font-size: 6.3px;"><span
                 sylet-id="m7ks2ax8lfg6mvqd2gc"><br>Elimine a necessidade de sistemas terceiros e integre facilmente na
                 sua operação:&nbsp;<span sylet-id="m7t48ww6s3xq5x7r8l">ERP, PPCP, CRM, WMS, TMS, HCM e
