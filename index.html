@@ -34,7 +34,7 @@
                 width: 1024px;
                 height: 2364.36px;
                 overflow: auto;
-                font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+                font-family: Montserrat, sans-serif;
                 color: rgb(51, 51, 51);
                 line-height: inherit;
                 font-size: 12px;
@@ -130,7 +130,6 @@
                 --sylet-node-editable: true;
                 margin: -73.3246% -0.0976562% -0.683594% 50.8789%;
                 height: 750.844px;
-                padding-bottom: 0px;
             }
 
             p[sylet-sequencial="13"] {
@@ -255,7 +254,7 @@
             }
 
             section[sylet-sequencial="20"] {
-                display: grid;
+                display: inline-flex;
                 justify-content: center;
                 background-color: rgb(242, 242, 242);
                 position: relative;
@@ -263,15 +262,12 @@
                 /* grid-template-columns: 1fr 375px 1fr; */
                 grid-template-rows: repeat(1, max-content);
                 grid-column: 2 / 3;
-                width: 46.7743%;
                 min-height: 100px;
                 --sylet-node-editable: true;
-                padding-right: 30%;
-                /* margin-left: 0.0946044%; */
-                /* margin-top: 0%; */
-                height: auto;
-                padding-bottom: 67px;
-                /* padding-top: 34px; */
+                align-content: center;
+                align-items: center;
+                gap: 15%;
+                padding: 2% 10%;
             }
 
             section[sylet-sequencial="21"] {
@@ -288,7 +284,6 @@
                 --sylet-node-editable: true;
                 margin: -37.0117% -22.6551% -12.5% 47.3603%;
                 height: 319px;
-                padding: 60px 1.5px 0px 0px;
                 align-items: center;
                 flex-wrap: wrap;
             }
@@ -821,21 +816,23 @@
             }
 
             div[sylet-sequencial="9"] {
-                display: grid;
-                justify-content: center;
-                background-origin: initial;
-                background-clip: initial;
-                background-color: rgb(0, 54, 107);
-                position: relative;
-                grid-template-columns: repeat(1, 1fr);
-                grid-template-rows: repeat(3, max-content);
-                place-self: center;
-                box-sizing: border-box;
-                min-width: 10px;
-                transform-origin: 0px 0px;
-                --sylet-node-editable: true;
-                width: auto;
-                height: 750px;
+                /* display: grid
+; */
+                /* justify-content: center; */
+                /* background-origin: initial; */
+                /* background-clip: initial; */
+                /* background-color: rgb(0, 54, 107); */
+                /* position: relative; */
+                /* grid-template-columns: repeat(1, 1fr); */
+                /* grid-template-rows: repeat(3, max-content); */
+                /* place-self: center; */
+                /* box-sizing: border-box; */
+                /* min-width: 10px; */
+                /* transform-origin: 0px 0px; */
+                /* --sylet-node-editable: true; */
+                /* width: auto; */
+                /* height: 750px; */
+                padding-top: 10px;
                 grid-column: 2 / 3;
             }
 
@@ -859,20 +856,8 @@
 
             div[sylet-sequencial="17"] {
                 display: grid;
-                justify-content: center;
-                background-origin: initial;
-                background-clip: initial;
-                background-color: transparent;
-                position: relative;
-                grid-template-columns: repeat(1, 1fr);
-                grid-template-rows: repeat(1, max-content);
-                place-self: center;
-                box-sizing: border-box;
-                min-width: 10px;
-                transform-origin: 0px 0px;
-                --sylet-node-editable: true;
-                width: 99.5238%;
-                height: 48.725px;
+                height: auto;
+                padding-top: 10px;
             }
 
             div[sylet-sequencial="18"] {
@@ -890,7 +875,6 @@
                 transform-origin: 0px 0px;
                 --sylet-node-editable: true;
                 width: 100%;
-                height: 682.235px;
             }
 
             p[sylet-sequencial="23"] {
@@ -917,13 +901,12 @@
             form[sylet-sequencial="28"] {
                 place-content: space-between;
                 border-radius: 3px;
-                gap: 15px;
+                gap: 13px;
                 display: flex;
                 flex-flow: column wrap;
-                font-family: "Segoe UI";
-                height: 641.638px;
+                height: auto;
                 padding: 1em;
-                width: 90%;
+                width: 95%;
                 place-self: center;
                 --sylet-node-editable: true;
             }
@@ -933,9 +916,8 @@
             background-color: rgb(250, 250, 250);
             color: rgb(0, 54, 107);
             font-size: 24px;
-            padding: 20% 0 0 188px;
+            padding: 20% 0 0 172px;
             text-align: start;
-
         }
 
         @media mobile {
@@ -1038,8 +1020,8 @@
             }
 
             img[sylet-sequencial="22"] {
-                width: 100%;
                 margin: 0 0 0 0;
+                padding: 5% 00;
             }
 
             section[sylet-sequencial="25"] {
@@ -1102,24 +1084,20 @@
             }
 
             section[sylet-sequencial="20"] {
-                display: grid;
+                display: inline-flex;
                 justify-content: center;
                 background-color: rgb(242, 242, 242);
                 position: relative;
                 max-width: -webkit-fill-available;
-                /* grid-template-columns: 1fr 375px 1fr; */
                 grid-template-rows: repeat(1, max-content);
                 grid-column: 2 / 3;
-                /* width: 46.7743%; */
                 min-height: 100px;
                 --sylet-node-editable: true;
-                padding-right: 4px;
-                */
-                /* margin-left: 0.0946044%; */
-                /* margin-top: 0%; */
-                height: auto;
-                padding-bottom: 0px;
-                /* padding-top: 34px; */
+                align-content: center;
+                align-items: center;
+                gap: 10%;
+                padding: 0% 5% 5% 5%;
+                flex-direction: column;
             }
 
             section[sylet-sequencial="11"] {
@@ -1169,8 +1147,8 @@
         </div>
         <p sylet-component="text" sylet-sequencial="14" style="line-height: 33.25px; font-size: 6.3px;"><span
                 sylet-id="m7ks2ax8lfg6mvqd2gc"><br>Elimine a necessidade de sistemas terceiros e integre facilmente na
-                sua operação:&nbsp;<span sylet-id="m7t48ww6s3xq5x7r8l">ERP, PPCP, CRM, WMS, TMS, HCM e
-                    BA.</span><br><br></span></p>
+                sua operação:&nbsp;<strong>ERP, PPCP, CRM, WMS, TMS, HCM e
+                    BA.</strong></span></p>
         <p sylet-component="text" sylet-sequencial="7" style="line-height: 37.25px; font-size: 6.8px;"><span
                 sylet-id="m7ks5thg7b8grvwv2dw"><br>Cada um dos nossos sistemas foi pensado para&nbsp;<span
                     sylet-id="m7t4919uoi7bd9jmriq">simplificar </span>a sua rotina e impulsionar a eficiência&nbsp;da
@@ -1182,7 +1160,6 @@
     </section>
     <section sylet-component="section" sylet-sequencial="12" class="">
         <div sylet-component="box" sylet-sequencial="9">
-            <div sylet-component="row" sylet-sequencial="16"></div>
             <div sylet-component="box" sylet-sequencial="17">
                 <p sylet-component="text" sylet-sequencial="23" style="line-height: 17.5px;">Preencha os campos abaixo
                     para<br>conhecer a nossa solução:</p>
@@ -1193,29 +1170,29 @@
                     sylet-sequencial="28" sylet-component="form-interativo">
                     <div class="box-input" style="display: flex; flex-wrap: wrap; gap: 5px; height: max-content;">
                         <p class="name-label"
-                            style="display: flex; align-items: center; gap: 2px; width: 100%; margin: 0px; color: rgb(255, 255, 255); font-family: Arial;">
+                            style="display: flex; align-items: center; gap: 2px;font-size: 15px; width: 100%; margin: 0px; color: rgb(255, 255, 255); font-family: Arial;">
                             Nome<span class="view-field-required"
                                 style="color: rgb(255, 0, 0); display: block;">*</span></p><input
                             name="inp-form-FANTASIA" class="" maxlength="35"
-                            style="outline: none; padding: 0.2em 0.3em; border: 1px solid #ccc; border-radius: 3px; width: 100%; height: max-content;"
+                            style="outline: none; padding: 0.5em 0.3em; border: 1px solid #ccc; border-radius: 3px; width: 100%; height: max-content;"
                             type="text" required="">
                     </div>
                     <div class="box-input" style="display: flex; flex-wrap: wrap; gap: 5px; height: max-content;">
                         <p class="name-label"
-                            style="display: flex; align-items: center; gap: 2px; width: 100%; margin: 0px; color: rgb(255, 255, 255); font-family: Arial;">
+                            style="display: flex; align-items: center; gap: 2px; width: 100%;font-size: 15px; margin: 0px; color: rgb(255, 255, 255); font-family: Arial;">
                             E-mail <span class="view-field-required"
                                 style="color: rgb(255, 0, 0); display: block;">*</span></p><input name="inp-form-EMAIL"
                             class="" maxlength="70"
-                            style="outline: none; padding: 0.2em 0.3em; border: 1px solid #ccc; border-radius: 3px; width: 100%; height: max-content;"
+                            style="outline: none; padding: 0.5em 0.3em; border: 1px solid #ccc; border-radius: 3px; width: 100%; height: max-content;"
                             type="email" required="">
                     </div>
                     <div class="box-input" style="display: flex; flex-wrap: wrap; gap: 5px; height: max-content;">
                         <p class="name-label"
-                            style="display: flex; align-items: center; gap: 2px; width: 100%; margin: 0px; color: rgb(255, 255, 255); font-family: Arial;">
+                            style="display: flex; align-items: center; gap: 2px; width: 100%; margin: 0px;font-size: 15px; color: rgb(255, 255, 255); font-family: Arial;">
                             Telefone<span class="view-field-required"
                                 style="color: rgb(255, 0, 0); display: block;">*</span></p><input
                             name="inp-form-CELULAR" class=""
-                            style="outline: none; padding: 0.2em 0.3em; border: 1px solid #ccc; border-radius: 3px; width: 100%; height: max-content;"
+                            style="outline: none; padding: 0.5em 0.3em; border: 1px solid #ccc; border-radius: 3px; width: 100%; height: max-content;"
                             type="text" placeholder="(xx) xxxxx-xxxx" oninput="
                                                       if (!arguments[0].data) return;
                                                       this.value = (function(value, pattern) {
@@ -1227,57 +1204,66 @@
                     </div>
                     <div class="box-input" style="display: flex; flex-wrap: wrap; gap: 5px; height: max-content;">
                         <p class="name-label"
-                            style="display: flex; align-items: center; gap: 2px; width: 100%; margin: 0px; font-family: Arial; color: rgb(255, 255, 255);">
+                            style="display: flex; align-items: center;font-size: 15px; gap: 2px; width: 100%; margin: 0px; font-family: Arial; color: rgb(255, 255, 255);">
                             Empresa<span class="view-field-required"
                                 style="color: rgb(255, 0, 0); display: block;">*</span></p><input
                             name="inp-form-NOMEFILIAL" class="" maxlength="60"
-                            style="outline: none; padding: 0.2em 0.3em; border: 1px solid #ccc; border-radius: 3px; width: 100%; height: max-content;"
+                            style="outline: none; padding: 0.5em 0.3em; border: 1px solid #ccc; border-radius: 3px; width: 100%; height: max-content;"
                             type="text" required="">
                     </div>
                     <div class="box-input" style="display: flex; flex-wrap: wrap; gap: 5px; height: max-content;">
                         <p class="name-label"
-                            style="display: flex; align-items: center; gap: 2px; width: 100%; margin: 0px; font-family: Arial; color: rgb(255, 255, 255);">
+                            style="display: flex;font-size: 15px; align-items: center; gap: 2px; width: 100%; margin: 0px; font-family: Arial; color: rgb(255, 255, 255);">
                             CNPJ<span class="view-field-required"
                                 style="color: rgb(255, 0, 0); display: block;">*</span></p><input name="inp-form-CGC"
                             class="" maxlength="14"
-                            style="outline: none; padding: 0.2em 0.3em; border: 1px solid #ccc; border-radius: 3px; width: 100%; height: max-content;"
+                            style="outline: none; padding: 0.5em 0.3em; border: 1px solid #ccc; border-radius: 3px; width: 100%; height: max-content;"
                             type="text" required="">
                     </div>
                     <div class="box-input" style="display: flex; flex-wrap: wrap; gap: 5px; height: max-content;">
                         <p class="name-label"
-                            style="display: flex; align-items: center; gap: 2px; width: 100%; margin: 0px; color: rgb(255, 255, 255); font-family: Arial;">
+                            style="display: flex;font-size: 15px; align-items: center; gap: 2px; width: 100%; margin: 0px; color: rgb(255, 255, 255); font-family: Arial;">
                             Cidade<span class="view-field-required"
                                 style="color: rgb(255, 0, 0); display: block;">*</span></p><input
                             name="inp-form-CCIDADE" class="" maxlength="10"
-                            style="outline: none; padding: 0.2em 0.3em; border: 1px solid #ccc; border-radius: 3px; width: 100%; height: max-content;"
+                            style="outline: none; padding: 0.5em 0.3em; border: 1px solid #ccc; border-radius: 3px; width: 100%; height: max-content;"
                             type="number" required="">
                     </div>
                     <div class="box-input" style="display: flex; flex-wrap: wrap; gap: 5px; height: max-content;">
                         <p class="name-label"
-                            style="display: flex; align-items: center; gap: 2px; width: 100%; margin: 0px; color: rgb(255, 255, 255); font-family: Arial;">
+                            style="display: flex;font-size: 15px; align-items: center; gap: 2px; width: 100%; margin: 0px; color: rgb(255, 255, 255); font-family: Arial;">
                             Número de funcionários em sua empresa<span class="view-field-required"
                                 style="color: rgb(255, 0, 0); display: block;">*</span></p><input
                             name="inp-form-NUMFUNC" class="" maxlength="10"
-                            style="outline: none; padding: 0.2em 0.3em; border: 1px solid #ccc; border-radius: 3px; width: 100%; height: max-content;"
+                            style="outline: none; padding: 0.5em 0.3em; border: 1px solid #ccc; border-radius: 3px; width: 100%; height: max-content;"
                             type="number" required="">
                     </div>
                     <div class="box-input" style="display: flex; flex-wrap: wrap; gap: 5px; height: max-content;">
                         <p class="name-label"
-                            style="display: flex; align-items: center; gap: 2px; width: 100%; margin: 0px; color: rgb(255, 255, 255); font-family: Arial;">
+                            style="display: flex;font-size: 15px; align-items: center; gap: 2px; width: 100%; margin: 0px; color: rgb(255, 255, 255); font-family: Arial;">
                             Validação Matemática <span class="view-field-required"
                                 style="color: rgb(255, 0, 0); display: block;">*</span></p><input
                             name="inp-form-INPUT12023722" class="" maxlength="100"
-                            style="outline: none; padding: 0.2em 0.3em; border: 1px solid #ccc; border-radius: 3px; width: 100%; height: max-content;"
+                            style="outline: none; padding: 0.5em 0.3em; border: 1px solid #ccc; border-radius: 3px; width: 100%; height: max-content;"
                             type="text" required="">
-                    </div><label class="box-input"
-                        style="display: flex; flex-wrap: wrap; gap: 5px; height: max-content;">
+                    </div>
+
+                    <label class="box-input"
+                        style="display: flex; flex-wrap: nowrap; gap: 5px; height: max-content; flex-direction: row-reverse;">
                         <p class="name-label"
-                            style="display: flex; align-items: center; gap: 2px; width: 100%; margin: 0px; font-family: Arial; color: rgb(255, 255, 255);">
-                            Concordo em receber comunicações</p><input name="inp-form-CHECKBOX52952731" class=""
+                            style="display: flex;font-size: 15px; align-items: center; gap: 2px; width: 100%; margin: 0px; font-family: Arial; color: rgb(255, 255, 255);">
+                            Eu concordo em receber comunicações</p><input name="inp-form-CHECKBOX52952731" class=""
                             style="outline: none; padding: 0.2em 0.3em; border: 1px solid rgb(204, 204, 204); border-radius: 3px; width: max-content; height: max-content;"
                             type="checkbox" value="S" required="">
-                    </label><input type="submit" value="Agendar demonstração gratuita" class="is-target-mouse"
-                        style="width: 100%; font-family: 'Segoe UI';line-height: 1.25;    font-weight: 400;    color: #fff; border: 0; border-radius: 3px; background-color: #0275d8; padding: 0.5em; cursor: pointer;border-radius: 20px;">
+
+                    </label>
+                    <p style="color: #fff;font-size: 14px;">A nossa empresa está comprometida a proteger e respeitar sua
+                        privacidade,
+                        utilizaremos seus
+                        dados apenas para fins de marketing.</p><input type="submit"
+                        value="Agendar demonstração gratuita" class="is-target-mouse"
+                        style="width: 100%; font-family: 'Segoe UI';line-height: 1.25;    font-weight: 400;    color: #fff; border: 0; border-radius: 3px; background-color: #0275d8; padding: 1em; cursor: pointer;border-radius: 20px;">
+
                 </form>
             </div>
         </div>
@@ -1292,18 +1278,15 @@
     </section>
     <section sylet-component="section" sylet-sequencial="20"><img sylet-component="image" sylet-sequencial="22"
             src="imagens/$9q235nl0ea.png">
-    </section>
-    <section sylet-component="section" sylet-sequencial="21" class="">
-        <div sylet-component="box" sylet-sequencial="39"></div><span sylet-id="m7t2pmc24kwez1ayztu">Há 35 anos, a
+        <span sylet-id="m7t2pmc24kwez1ayztu">Há 35 anos, a
             TECNICON transforma o potencial de cada negócio em <strong>resultados
                 extraordinários.</strong><br><br>Desenvolvemos soluções completas de gestão que simplificam a vida dos
             nossos
             parceiros e são totalmente aderentes e adaptáveis às necessidades deles.<br><br>Seja qual for a sua
             especialidade, nós temos a solução ideal para o seu negócio.<br><br>Chegou a hora de mudar! Junte-se a nós
             no caminho para o sucesso:</span>
-        <p></p>
-        <div sylet-component="box" sylet-sequencial="37"></div>
     </section>
+
     <section sylet-component="section" sylet-sequencial="24"><img
             onclick="window.open('https://www.tecnicon.com.br/', '_blank');" sylet-component="image"
             sylet-sequencial="2" src="imagens/$2gh44oaxfed.png">
