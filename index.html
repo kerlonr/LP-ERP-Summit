@@ -7,16 +7,17 @@
     <title>Formulário ERP Summit TECNICON</title>
     <style type="text/css" sylet-css="">
         /* Reset CSS para Safari - Pode ser adicionado a um arquivo existente */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    -webkit-text-size-adjust: 100%; /* Evita zoom automático em inputs no iOS */
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+            -webkit-text-size-adjust: 100%;
+            /* Evita zoom automático em inputs no iOS */
+        }
 
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -106,7 +107,7 @@
                 grid-template-columns: 1fr 375px 1fr;
                 grid-template-rows: repeat(6, max-content);
                 grid-column: 2 / 3;
-                width: 50.7599%;
+                width: 51%;
                 min-height: 100px;
                 --sylet-node-editable: true;
                 margin-left: 0%;
@@ -115,7 +116,6 @@
                 align-content: flex-start;
                 flex-wrap: wrap;
                 padding-left: 1%;
-                /* flex-direction: column; */
             }
 
             .texto-banner {
@@ -913,7 +913,6 @@
                 flex-flow: column wrap;
                 height: auto;
                 padding: 1em;
-                width: 95%;
                 place-self: center;
                 --sylet-node-editable: true;
             }
@@ -1008,6 +1007,10 @@
             section[sylet-sequencial="12"] {
                 width: 100%;
                 margin: 0% 0% 0% 0%;
+            }
+
+            section[sylet-sequencial="12"] {
+                height: auto;
             }
 
             section[sylet-sequencial="20"] {
